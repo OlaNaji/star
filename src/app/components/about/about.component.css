@@ -1,0 +1,7 @@
+.about-section{
+    min-height: calc(100vh - 100px);
+    padding: 4rem;
+}
+.about-content p{
+    margin-inline: 2rem;
+}

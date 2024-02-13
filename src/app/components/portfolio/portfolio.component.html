@@ -1,0 +1,21 @@
+
+<div class="portfolio-section bg-colorLight d-flex flex-column align-items-center">
+    <h3 class="section-title">portfolio component</h3>
+    <div class="line-decorator d-flex align-items-center my-2">
+        <div class="line"></div>
+        <i class="fas fa-star"></i>
+        <div class="line"></div>
+    </div>
+    <div class="row g-5 mt-2">
+        <div class="col-md-4" *ngFor="let image of images">
+            <div class="portfoliio-card position-relative">
+                <img src="{{image.url}}" class="w-100"  alt="">
+                <div (click)="openPopup(image.url)" class="overlay bg-popColor position-absolute h-100 w-100 top-0 start-0 d-flex justify-content-center align-items-center">
+                    <i class="fas fa-add"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-popup-page *ngIf="isPopupVisible" [imageUrl]="popupImageUrl" (close)="closePopup()"></app-popup-page>

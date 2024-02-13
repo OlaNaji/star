@@ -1,0 +1,24 @@
+.line {
+  background-color: var(--seconondary-color-dark);
+}
+
+.contact-form {
+  padding: 4rem;
+}
+
+.btn {
+  background-color: var(--main-popColor);
+  border: none;
+}
+
+label {
+  text-transform: capitalize;
+  color: var(--seconondary-color-dark);
+}
+
+@media (max-width:599px) {
+  form {
+    width: 75% !important;
+  }
+
+}

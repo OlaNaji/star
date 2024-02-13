@@ -1,0 +1,18 @@
+nav{
+    transition: all 0.3s ease;
+}
+.navbar a{
+    color: var(--main-light) !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+}
+
+.nav-link.active{
+    background-color: var(--main-popColor);
+    border-radius: 10px;
+}

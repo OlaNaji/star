@@ -1,0 +1,23 @@
+<nav  [class.shrunk]="isNavbarShrunk" [class.py-4]="isTopOfPage" class="navbar navbar-expand-sm bg-colorSec py-4 fixed-top">
+  <div class="container ">
+    <a class="navbar-brand" routerLink="/home" routerLinkActive="active">start framework</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link me-2" routerLink="about" routerLinkActive="active">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-2" routerLink="portfolio" routerLinkActive="active">portofilio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-2" routerLink="contact" routerLinkActive="active">contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+

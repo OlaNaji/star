@@ -1,0 +1,10 @@
+.router-content{
+  display: block;
+  /* height: calc(100vh - 100px) ;  */
+  min-height: fit-content;
+  margin-top: 100px;
+  /* padding: 4rem; */
+}
+
+
+/* :host ::ng-deep router-outlet + *  */

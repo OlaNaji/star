@@ -1,0 +1,13 @@
+.home{
+    padding-block: 4rem;
+    color: var(--main-light);
+}
+
+.home-content img{
+width: 300px;
+}
+
+.home-content p{
+    font-size: 1.2rem;
+}
+

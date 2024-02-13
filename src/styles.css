@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --secondary-color: #2c3e50;
+  --seconondary-color-dark: #1A252F;
+  --main-popColor: #1abc9c;
+  --main-light: #FFFFFF;
+
+}
+
+.bg-colorDark{
+  background-color: var(--seconondary-color-dark);
+}
+.bg-colorSec{
+  background-color: var(--secondary-color);
+}
+
+.bg-colorLight{
+  background-color: var(--main-light);
+}
+.bg-popColor{
+  background-color: var(--main-popColor);
+}
+
+.line{
+  background-color: var(--main-light);
+  height: 5px;
+  width: 100px;
+  margin-inline: 20px;
+}
+.section-title{
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}

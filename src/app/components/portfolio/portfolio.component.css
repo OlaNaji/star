@@ -1,0 +1,25 @@
+.portfolio-section {
+  padding: 4rem;
+  color: var(--seconondary-color-dark);
+}
+
+.line {
+  background-color: var(--seconondary-color-dark);
+}
+
+.portfoliio-card {
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.overlay {
+  opacity: 0;
+  transition: opacity 0.4s;
+  color: var(--main-light);
+  font-size: 6rem;
+}
+
+.portfoliio-card:hover .overlay {
+  opacity: 0.9;
+}
